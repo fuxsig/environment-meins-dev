@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: fuxsig
+    provider: github
+    repository: express-hello
+  name: fuxsig-express-hello
+spec:
+  description: Imported application for fuxsig/express-hello
+  httpCloneURL: https://github.com/fuxsig/express-hello.git
+  org: fuxsig
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: express-hello
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/fuxsig/express-hello.git

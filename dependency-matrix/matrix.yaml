@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: fuxsig
-  repo: firstit
-  url: https://github.com/fuxsig/firstit.git
+  repo: express-hello
+  url: https://github.com/fuxsig/express-hello.git
   version: ""
   versionURL: ""
