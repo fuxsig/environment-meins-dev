@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: fuxsig
+    provider: github
+    repository: firstit
+  name: fuxsig-firstit
+spec:
+  description: Imported application for fuxsig/firstit
+  httpCloneURL: https://github.com/fuxsig/firstit.git
+  org: fuxsig
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: firstit
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/fuxsig/firstit.git

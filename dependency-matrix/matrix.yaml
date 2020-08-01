@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: fuxsig
+  repo: firstit
+  url: https://github.com/fuxsig/firstit.git
+  version: ""
+  versionURL: ""
