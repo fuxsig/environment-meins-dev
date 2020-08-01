@@ -1,0 +1,10 @@
+adminUser:
+  password: local:meins/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: michael@bungenstock.de
+  token: local:meins/pipelineUser:token
+  username: fuxsig
+prow:
+  hmacToken: local:meins/prow:hmacToken
